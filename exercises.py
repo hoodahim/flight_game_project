@@ -1,6 +1,36 @@
 import math
-import _mysql_connector
+import mysql.connector
 import sys
+
+# 8.1
+
+connection = mysql.connector.connect(
+    host='127.0.0.1',
+    port='3306',
+    database='flight_game',
+    user='root',
+    password='1234',
+    autocommit=True
+    )
+
+
+def fetch(name, location):
+    sql = "SELECT gps_code FROM airport"
+    sql += " WHERE Last_name='" + last_name + "'"
+    print(sql)
+    cursor = connection.cursor()
+    cursor.execute(sql)
+    result = cursor.fetchall()
+    if cursor.rowcount > 0:
+        for row in result:
+            print(f"Hello! I'm {row[2]} {row[1]}. My salary is {row[3]} euros per month.")
+
+
+code = input("Enter IACO code:")
+print(name, location)
+
+
+sys.exit(0)
 
 # 7.2
 
@@ -20,15 +50,6 @@ while name != "":
 for name in names:
     print(name)
 
-sys.exit(0)
-
-# 8.1
-def fetch(name, location):
-    1
-
-
-code = input("Enter IACO code:")
-print(name, location)
 
 # 7.1, not exactly what was instructed, but this is the solution I could make work
 month = input("Input the number of the month: \n")
