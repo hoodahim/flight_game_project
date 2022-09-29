@@ -17,7 +17,7 @@ while start != final:
     change = input("Enter airport to fly to")
     # check if name or other data entered is in database
     # if in print out airport info
-    # if no re-loop
+    # if no, give error message and re-loop
 
     confirm = input("Are you sure (y/n)")
     if confirm == "y":
