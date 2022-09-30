@@ -9,7 +9,15 @@ def randomizer():
     return ()
 
 
-start = randomizer()
+valid = 0
+
+while valid != 1:
+    start = input("Enter a starting airport: ")
+    if start in airports:
+        valid = 1
+    else:
+        print("Invalid input"), print("")
+
 final = randomizer()
 
 while start != final:
