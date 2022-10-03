@@ -6,7 +6,7 @@ def randomiser():
     while len(list) !=5:
         dice=random.randint(1,9)
         if dice == 1:
-            list.append("Ibiza")
+            list.append("Ibiza")    #just names of places here as an example, this would be picking the location, and thus the conditions and bonuses
             roll.append(1)
         elif dice == 2:
             list.append("Madrid")
