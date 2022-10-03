@@ -35,7 +35,7 @@ def randomiser():
         return()
 
 
-list=[]
+list=["Budapest"]
 roll=[]
 
 goal1=randomiser()
