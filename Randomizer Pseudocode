@@ -30,7 +30,8 @@ def randomiser():
             list.append("Beriln")
             roll.append(8)
         elif dice == 9:
-            list.append("Athens"),roll.append(9)
+            list.append("Athens")
+            roll.append(9)
         return()
 
 
