@@ -75,9 +75,14 @@ total_score = 0
     # if icao code == any of the stated airport of the goal:
         # base_score = 500
         # total_score += base_score
+        # if icao code = e.g. prague:
+        #   print out fun fact
+        # elif: previous if repeats one by one with each extra until no airport left
+        #   print out the fun fact
     # elif icao == budapest:
         # bonus_score = 800
         # total_score += bonus_score
+        # print out explanation of the riddle and give fun fact
 
 # when player reaches 2500 we let it know that it has won the game and congratulate
 # if you want, you can look for some python firework drawing and print it along with the text
