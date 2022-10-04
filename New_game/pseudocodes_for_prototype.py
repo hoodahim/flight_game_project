@@ -26,12 +26,13 @@ def airport_printer(country_code):
 
 
 # main game
+# NOTE: IT'S DIFFERENT FOR EVERYONE
 connection = mysql.connector.connect(
          host='127.0.0.1',
          port=3306,
-         database='flight_game',
+         database='cars',
          user='root',
-         password='CamdenTown',
+         password='MariaDB',
          autocommit=True
          )
 
