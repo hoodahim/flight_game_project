@@ -45,7 +45,7 @@ Before flying off to your first adventure, I ask you kindly to take into conside
 and plan your trip ahead to minimalize unnecessary CO2 emission.
 """)
 
-# ask player if all is clear and ready to see the goals use .lower() at the end
+# ask player BY NAME if all is clear and ready to see the goals use .lower() at the end
 # while answer is not "yes":
     # if answer is "no":
     #   print our the let me tell you part with slight change.
@@ -56,7 +56,7 @@ and plan your trip ahead to minimalize unnecessary CO2 emission.
 #print(""" #put the goals here
 # """)
 
-# ask player if all is clear and ready to choose first location, use .lower() at the end
+# ask player BY NAME if all is clear and ready to choose first location, use .lower() at the end
 # while answer is not "yes":
     # if answer is "no":
     #   print our to goals
