@@ -39,7 +39,7 @@ connection = mysql.connector.connect(
          )
 
 screen_name = input("Please choose a username: ")
-print(f"Hello, {screen_name}, and welcome to \033[1m" + "theNameOfTheGame" + "\033[0m. It looks like you are currently in Helsinki, Finland.\n")
+print(f"Hello, {screen_name}, and welcome to \033[1m" + "Fairweather Tourist" + "\033[0m. It looks like you are currently in Helsinki, Finland.\n")
 print("""Let me tell you a bit more about the game: \n
 You have had this bucket list for a while now and you decided it's time to put things finally into motion!
 - Based on your calculation you have overall 1200 EUR to visit 5 locations in Europe.
@@ -82,24 +82,25 @@ print("""Here are the game's goals:
 # Initial score is always 0, base score is subject to change since we will complicate the game with API
 total_score = 0
 base_score = 500
+bonus_score = 800
 
 # All of the correct answers:
 airports = {"EGKK": "London Gatwick Airport",
             "EGSS": "London Stansted Airport",
             "EGGW": "London Luton Airport",
             "EGLL": "London Heathrow Airport",
-            "EFRO": "Rovaniemi",
+            "EFRO": "Rovaniemi", #does not work yet (not printed because it is not large airport)
             "LPPT": "Humberto Delgado Airport (Lisbon Portela)",
             "LKPR": "V?clav Havel Airport Prague",
             "LEIB": "Ibiza Airport"}
 
-# Countries' id: Great Britain (GB), Finland (FI), Portugal (PT), Czech Republic (CZ), Spain (ES)
 # List of correct countries:
 countries = {"GB": "Great Britain",
             "FI": "Finland",
             "PT": "Portugal",
             "CZ": "Czech Republic",
-            "ES": "Spain"}
+            "ES": "Spain",
+            "HU": "Hungary"}
 
 while total_score < 2500:
     Country_code_input = input("Enter country's code: ").upper() # asks user for a country code where player wants to go
@@ -111,25 +112,28 @@ while total_score < 2500:
     location_finder(ICAO_code_input)
     if ICAO_code_input in airports:
         total_score = total_score + base_score
-        print(f"Your current score is {total_score}") #Just for testing, needs to be deleted later
-        if ICAO_code_input == "EGKK" or "EGSS" or "EGGW" or "EGLL":
-            print("You guessed it right, now you are in London! Here is fun fact about it:")
+        print(f"Your current score is {total_score}") #Just for testing, can be deleted later
+        if ICAO_code_input == "LEIB":
+            print("You guessed in right, now you are in Ibiza!")  # add fun fact
         elif ICAO_code_input == "EFRO":
-            print("You guessed in right, now you are in Rovaniemi!") #add fun fact
+            print("You guessed in right, now you are in Rovaniemi!")  # add fun fact
         elif ICAO_code_input == "LPPT":
             print("You guessed in right, now you are in Lisbon!")  # add fun fact
         elif ICAO_code_input == "LKPR":
             print("You guessed in right, now you are in Prague!")  # add fun fact
-        elif ICAO_code_input == "LEIB":
-            print("You guessed in right, now you are in Ibiza!")  # add fun fact
+        else: # this "else" in practice means that ICAO_code_input == "EGKK": or "EGSS" or "EGGW" or "EGLL":
+            print("You guessed it right, now you are in London! Here is fun fact about it:")
+    elif ICAO_code_input == "LHBP":
+        total_score = total_score + bonus_score
+        print(f"Your current score is {total_score}")  # Just for testing, can be deleted later
+        print("You guessed in right, now you are in Budapest!") # add fun fact
     else:
         print("Unfortunately, it's not that airport, let's try again!")
+
 
 print(f"Congratulations, {screen_name}, you have won the game! You final score is {total_score}.") #player won the game, finish
 
 # while total_score < 2500:
-    # call location finder
-    # print out the players new location: You have arrived to
     # if icao code == any of the stated airport of the goal:
         # base_score = 500
         # total_score += base_score
