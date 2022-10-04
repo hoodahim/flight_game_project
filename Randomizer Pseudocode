@@ -1,0 +1,49 @@
+import sys
+import math
+import random
+
+def randomiser():
+    while len(list) !=5:
+        dice=random.randint(1,9)
+        if dice == 1:
+            list.append("Ibiza")    #just names of places here as an example, this would be picking the location, and thus the conditions and bonuses
+            roll.append(1)
+        elif dice == 2:
+            list.append("Madrid")
+            roll.append(2)
+        elif dice == 3:
+            list.append("Stockholm")
+            roll.append(3)
+        elif dice == 4:
+            list.append("London")
+            roll.append(4)
+        elif dice == 5:
+            list.append("Rovaniemi")
+            roll.append(5)
+        elif dice == 6:
+            list.append("Paris")
+            roll.append(6)
+        elif dice == 7:
+            list.append("Krakov")
+            roll.append(7)
+        elif dice == 8:
+            list.append("Beriln")
+            roll.append(8)
+        elif dice == 9:
+            list.append("Athens")
+            roll.append(9)
+        return()
+
+
+list=["Budapest"]
+roll=[]
+
+goal1=randomiser()
+goal2=randomiser()
+goal3=randomiser()
+goal4=randomiser()
+goal5=randomiser()
+
+print(list) # these are the goals the playe is given, with appropriate hints
+
+sys.exit(1)
