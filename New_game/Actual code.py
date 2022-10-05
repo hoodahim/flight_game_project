@@ -1,6 +1,6 @@
 import sys
 import mysql.connector
-
+import random
 
 # Function to find the airport based on entered ICAO code (by user) and provide with airport's name & municipality
 def location_finder(ICAO):
@@ -84,54 +84,86 @@ total_score = 0
 base_score = 500
 bonus_score = 800
 
+# Initial CO2 value is 0
+CO2_emission = 0
+
 # All of the correct answers:
 airports = {"EGKK": "London Gatwick Airport",
             "EGSS": "London Stansted Airport",
             "EGGW": "London Luton Airport",
             "EGLL": "London Heathrow Airport",
-            "EFRO": "Rovaniemi", #does not work yet (not printed because it is not large airport)
+            "ENGM": "Oslo",  # CHANGED LOCATION
             "LPPT": "Humberto Delgado Airport (Lisbon Portela)",
             "LKPR": "V?clav Havel Airport Prague",
             "LEIB": "Ibiza Airport"}
 
 # List of correct countries:
 countries = {"GB": "Great Britain",
-            "FI": "Finland",
-            "PT": "Portugal",
-            "CZ": "Czech Republic",
-            "ES": "Spain",
-            "HU": "Hungary"}
+             "NO": "Norway",
+             "PT": "Portugal",
+             "CZ": "Czech Republic",
+             "ES": "Spain",
+             "HU": "Hungary"}
 
-while total_score < 2500:
-    Country_code_input = input("Enter country's code: ").upper() # asks user for a country code where player wants to go
-    while Country_code_input not in countries: # if the country is not on our list, it asks to try again until user guesses it
-        print("Ooops, wrong country, try again!")
-        Country_code_input = input("Enter country's code: ").upper()
-    airport_printer(Country_code_input) #all LARGE airports in that country are printed
-    ICAO_code_input = input("Please, write down the preferred ICAO code: ").upper() #ask to write the preferred icao code
+answer_list = []  # the ICAO_code_input answers are saved to this list so they cannot be replicated
+
+# absolute CO2 emission limit is set to 300 * 15 = 4500 (so once this value is reached (or score achieved) the game will finish)
+
+while total_score < 2500 and CO2_emission < 4500:
+    Country_code_input = input(
+        "Enter country's code: ").upper()  # asks user for a country code where player wants to go
+    airport_printer(Country_code_input)  # all LARGE airports in that country are printed
+    ICAO_code_input = input(
+        "Please, write down the preferred ICAO code: ").upper()  # ask to write the preferred icao code
     location_finder(ICAO_code_input)
+
+    # Below I tried to restrict user input to the same airport multiple times, but failed
+
+    # answer_list.append(ICAO_code_input)  # adds a new ICAO code once the user types it in
+
+    # if ICAO_code_input in answer_list:
+    # print("You have already entered this location, try another one!")
+    # ICAO_code_input = input("Please, write down the preferred ICAO code: ").upper()  # ask to write AGAIN the preferred icao code
+    # answer_list.append(ICAO_code_input)  # adds a new ICAO code once the user types it in
+
+    # print(answer_list) #just to check what ICAO codes are saved
+
     if ICAO_code_input in airports:
         total_score = total_score + base_score
-        print(f"Your current score is {total_score}") #Just for testing, can be deleted later
+        CO2_emission = CO2_emission + random.randint(250, 350)
+        print(
+            f"Your current score is {total_score}, and CO2 emission is {CO2_emission}")  # Just for testing, can be deleted later
         if ICAO_code_input == "LEIB":
             print("You guessed in right, now you are in Ibiza!")  # add fun fact
-        elif ICAO_code_input == "EFRO":
-            print("You guessed in right, now you are in Rovaniemi!")  # add fun fact
+        elif ICAO_code_input == "ENGM":
+            print("You guessed in right, now you are in Oslo!")  # add fun fact
         elif ICAO_code_input == "LPPT":
             print("You guessed in right, now you are in Lisbon!")  # add fun fact
         elif ICAO_code_input == "LKPR":
             print("You guessed in right, now you are in Prague!")  # add fun fact
-        else: # this "else" in practice means that ICAO_code_input == "EGKK": or "EGSS" or "EGGW" or "EGLL":
+        else:  # this "else" in practice means that ICAO_code_input == "EGKK": or "EGSS" or "EGGW" or "EGLL":
             print("You guessed it right, now you are in London! Here is fun fact about it:")
     elif ICAO_code_input == "LHBP":
         total_score = total_score + bonus_score
-        print(f"Your current score is {total_score}")  # Just for testing, can be deleted later
-        print("You guessed in right, now you are in Budapest!") # add fun fact
+        CO2_emission = CO2_emission + random.randint(250, 350)
+        print(
+            f"Your current score is {total_score} and CO2 emission is {CO2_emission}")  # Just for testing, can be deleted later
+        print("You guessed in right, now you are in Budapest!")  # add fun fact
+    elif ICAO_code_input not in airports and Country_code_input in countries:
+        CO2_emission = CO2_emission + random.randint(250, 350)
+        print(CO2_emission)  # Just for check
+        print("Unfortunately, the airport is not right, but you guessed the country right!")
     else:
-        print("Unfortunately, it's not that airport, let's try again!")
+        CO2_emission = CO2_emission + random.randint(250, 350)
+        print(CO2_emission)  # Just for check
+        print("Unfortunately, the location is not in this country, try another one!")
 
-
-print(f"Congratulations, {screen_name}, you have won the game! You final score is {total_score}.") #player won the game, finish
+if total_score >= 2500:
+    print(
+        f"Congratulations, {screen_name}, you have won the game! You final score is {total_score} and CO2 emission is {CO2_emission}.")  # player won the game, finish
+else:
+    print(
+        f"Unfortunately, {screen_name}, you have exceeded the maximum allowed value of CO2 emission, your final score is {total_score} with {CO2_emission} CO2 emission.")  # player lost the game
 
 # if you want, you can look for some python firework drawing and print it along with the text
 
