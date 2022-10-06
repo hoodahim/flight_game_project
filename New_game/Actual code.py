@@ -32,9 +32,9 @@ def airport_printer(country_code):
 connection = mysql.connector.connect(
          host='127.0.0.1',
          port=3306,
-         database='cars', # NOTE: IT'S DIFFERENT FOR EVERYONE (Now it's Vlad's version)
+         database='flight_game', # NOTE: IT'S DIFFERENT FOR EVERYONE (Now it's Vlad's version)
          user='root', # NOTE: IT'S DIFFERENT FOR EVERYONE (Now it's Vlad's version)
-         password='MariaDB', # NOTE: IT'S DIFFERENT FOR EVERYONE (Now it's Vlad's version)
+         password='him1234', # NOTE: IT'S DIFFERENT FOR EVERYONE (Now it's Vlad's version)
          autocommit=True
          )
 
@@ -106,7 +106,7 @@ countries = {"GB": "Great Britain",
              "HU": "Hungary"}
 
 answer_list = []  # the ICAO_code_input answers are saved to this list so they cannot be replicated
-
+ICAO_code_input=""
 # absolute CO2 emission limit is set to 300 * 15 = 4500 (so once this value is reached (or score achieved) the game will finish)
 
 while total_score < 2500 and CO2_emission < 4500:
@@ -115,8 +115,12 @@ while total_score < 2500 and CO2_emission < 4500:
     airport_printer(Country_code_input)  # all LARGE airports in that country are printed
     ICAO_code_input = input(
         "Please, write down the preferred ICAO code: ").upper()  # ask to write the preferred icao code
-    location_finder(ICAO_code_input)
 
+    if ICAO_code_input in answer_list:
+        print("You have already entered this location, try another one!")
+    else:
+        answer_list.append(ICAO_code_input)
+        location_finder(ICAO_code_input)
     # Below I tried to restrict user input to the same airport multiple times, but failed
 
     # answer_list.append(ICAO_code_input)  # adds a new ICAO code once the user types it in
@@ -128,35 +132,35 @@ while total_score < 2500 and CO2_emission < 4500:
 
     # print(answer_list) #just to check what ICAO codes are saved
 
-    if ICAO_code_input in airports:
-        total_score = total_score + base_score
-        CO2_emission = CO2_emission + random.randint(250, 350)
-        print(
+        if ICAO_code_input in airports:
+            total_score = total_score + base_score
+            CO2_emission = CO2_emission + random.randint(250, 350)
+            print(
             f"Your current score is {total_score}, and CO2 emission is {CO2_emission}")  # Just for testing, can be deleted later
-        if ICAO_code_input == "LEIB":
-            print("You guessed in right, now you are in Ibiza!")  # add fun fact
-        elif ICAO_code_input == "ENGM":
-            print("You guessed in right, now you are in Oslo!")  # add fun fact
-        elif ICAO_code_input == "LPPT":
-            print("You guessed in right, now you are in Lisbon!")  # add fun fact
-        elif ICAO_code_input == "LKPR":
-            print("You guessed in right, now you are in Prague!")  # add fun fact
-        else:  # this "else" in practice means that ICAO_code_input == "EGKK": or "EGSS" or "EGGW" or "EGLL":
-            print("You guessed it right, now you are in London! Here is fun fact about it:")
-    elif ICAO_code_input == "LHBP":
-        total_score = total_score + bonus_score
-        CO2_emission = CO2_emission + random.randint(250, 350)
-        print(
+            if ICAO_code_input == "LEIB":
+                print("You guessed in right, now you are in Ibiza!")  # add fun fact
+            elif ICAO_code_input == "ENGM":
+                print("You guessed in right, now you are in Oslo!")  # add fun fact
+            elif ICAO_code_input == "LPPT":
+                print("You guessed in right, now you are in Lisbon!")  # add fun fact
+            elif ICAO_code_input == "LKPR":
+                print("You guessed in right, now you are in Prague!")  # add fun fact
+            else:  # this "else" in practice means that ICAO_code_input == "EGKK": or "EGSS" or "EGGW" or "EGLL":
+                print("You guessed it right, now you are in London! Here is fun fact about it:")
+        elif ICAO_code_input == "LHBP":
+            total_score = total_score + bonus_score
+            CO2_emission = CO2_emission + random.randint(250, 350)
+            print(
             f"Your current score is {total_score} and CO2 emission is {CO2_emission}")  # Just for testing, can be deleted later
-        print("You guessed in right, now you are in Budapest!")  # add fun fact
-    elif ICAO_code_input not in airports and Country_code_input in countries:
-        CO2_emission = CO2_emission + random.randint(250, 350)
-        print(CO2_emission)  # Just for check
-        print("Unfortunately, the airport is not right, but you guessed the country right!")
-    else:
-        CO2_emission = CO2_emission + random.randint(250, 350)
-        print(CO2_emission)  # Just for check
-        print("Unfortunately, the location is not in this country, try another one!")
+            print("You guessed in right, now you are in Budapest!")  # add fun fact
+        elif ICAO_code_input not in airports and Country_code_input in countries:
+            CO2_emission = CO2_emission + random.randint(250, 350)
+            print(CO2_emission)  # Just for check
+            print("Unfortunately, the airport is not right, but you guessed the country right!")
+        else:
+            CO2_emission = CO2_emission + random.randint(250, 350)
+            print(CO2_emission)  # Just for check
+            print("Unfortunately, the location is not in this country, try another one!")
 
 if total_score >= 2500:
     print(
