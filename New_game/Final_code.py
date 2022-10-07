@@ -163,7 +163,7 @@ while total_score < 2500 and CO2_emission < 3750:
     else:
         answer_list.append(ICAO_code_input)
         location_finder(ICAO_code_input)
-        CO2_change = icao_code_checker(ICAO_code_input)
+        CO2_change = random.randint(200, 300)
         CO2_emission += CO2_change
         if ICAO_code_input in airports:
             total_score += base_score
