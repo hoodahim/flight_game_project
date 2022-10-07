@@ -117,7 +117,7 @@ connection = mysql.connector.connect(
          port=3306,
          database='flight_game',
          user='root',
-         password='CamdenTown',
+         password='him1234',
          autocommit=True
          )
 
@@ -160,7 +160,6 @@ while total_score < 2500 and CO2_emission < 3750:
     ICAO_code_input = input("\nEnter ICAO code: ").upper()
     if ICAO_code_input in answer_list:
         print("\nYou have already visited that location, try another one!")
-        ICAO_code_input = input("\nEnter ICAO code: ").upper()
     else:
         answer_list.append(ICAO_code_input)
         location_finder(ICAO_code_input)

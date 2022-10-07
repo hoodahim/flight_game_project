@@ -3,7 +3,7 @@
 #Import libraries here
 
 import mysql.connector
-
+import random
 
 
 # functions here
@@ -28,4 +28,4 @@ connection = mysql.connector.connect(
 #game codes here
 
 
-screenname = str(input("Please enter player's name: "))
+screenname = str(input("Enter player's name: "))
