@@ -268,7 +268,7 @@ if total_score >= 2500:
     	' . . '     '::::'    =====   * __\/__ *  --= o =--   '''       '  '  '
     		  *                 |     *   /\   *   .'/.\.       *    ._____'___.
         Congratulations, {screen_name}. You won \033[1mFairweather Tourist\033[0m! 
-        Your final score is: {total_score} points, your CO2 emission is: {CO2_emission:6.2f}kg and distance is: {total_distance:6.2f}km.
+    Your final score is: {total_score} points, your CO2 emission is: {CO2_emission:6.2f}kg and distance is: {total_distance:6.2f}km.
     			  *             |    .-' -|				   .---_..   |  .      |
     		------------        |    | '  |           __   |     |   |  |   ¤  |   .
     	  *	 ¤	¤  ¤  ¤  *		|    |  ¤ |   |  |   |  |_ |  ¤  | _ |         |   |
