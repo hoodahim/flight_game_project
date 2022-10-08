@@ -278,6 +278,6 @@ if total_score >= 2500:
 else:
     print(
         f"\nUnfortunately {screen_name}, you have exceeded the maximum allowed value of CO2 emission, "
-        f"your final score is {total_score} with {CO2_emission:2f}kg CO2 emission and {total_distance:2f} km as travelled distance.")
+        f"your final score is {total_score} with {CO2_emission:6.2f}kg CO2 emission and {total_distance:6.2f} km as travelled distance.")
 
 sys.exit
