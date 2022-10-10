@@ -1,6 +1,5 @@
 import sys
 import mysql.connector
-import random
 from geopy import distance
 
 
@@ -209,8 +208,7 @@ airports = {"EGKK": "London Gatwick Airport", "EGSS": "London Stansted Airport",
             "EGLL": "London Heathrow Airport", "ENGM": "Oslo Airport",
             "LPPT": "Humberto Delgado Airport (Lisbon Portela)",
             "LKPR": "V?clav Havel Airport Prague", "LEIB": "Ibiza Airport"}
-countries = {"GB": "Great Britain", "NO": "Norway", "PT": "Portugal", "CZ": "Czech Republic", "ES": "Spain",
-             "HU": "Hungary"}
+countries = ["United Kingdom", "Norway", "Portugal","Czech Republic", "Spain", "Hungary"]
 
 total_score = CO2_emission = total_distance = 0
 base_score = 500
