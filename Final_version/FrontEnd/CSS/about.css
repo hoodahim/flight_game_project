@@ -1,0 +1,163 @@
+/* variables */
+:root {
+    --black: rgb(23, 23, 23);
+    --white: rgb(253, 253, 253);
+    --dark-blue: rgb(70, 82, 95);
+    --purple: rgb(96, 88, 99);
+    --light-purple: rgb(112, 92, 99);
+    --dark-pastel: rgb(127, 98, 101);
+    --pastel: rgb(135, 103, 100);
+}
+
+/* utilities */
+nav ul li a {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    text-align: center;
+    transition: all 300ms;
+    color: floralwhite;
+}
+
+nav ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: var(--light-purple);
+    display: block;
+    margin: auto;
+    transition: 1.5s;
+}
+
+nav ul li:hover::after{
+    width: 100%;
+    background: floralwhite;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* app specific */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color: #fffcfc;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.page-header {
+    background-color: #605864;
+    color: floralwhite;
+    text-shadow: rgba(0, 0, 0, 0.9) 3px 3px 10px;
+    display: flex;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 10px;
+}
+
+.page-title {
+    margin: 0;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    padding: 1rem 2rem;
+}
+
+nav{
+    margin: 0 1rem 0 60rem;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin: 1.6rem 1rem 1rem 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem 1.4rem;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    height: 90vh;
+}
+
+.about {
+    padding-left: 2rem;
+}
+
+.pic {
+    border: 1px solid var(--purple);
+    border-radius: 6px;
+    width: 40%;
+    float: left;
+    margin: 2rem 2.4rem 2rem 2rem;
+}
+
+.quotation {
+    font-size: 1.2rem;
+    margin: 3.5rem 3rem 1rem 0;
+    line-height: 2rem;
+}
+
+.text {
+    font-size: 1.1rem;
+    margin: 2rem 3rem 1rem 4.4rem;
+    text-align: justify;
+    line-height: 1.6rem;
+}
+
+.page-footer {
+    background-color: #605864;
+    color: floralwhite;
+    text-shadow: rgba(0, 0, 0, 0.9) 3px 3px 10px;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+    .box {
+        font-size: 0.92rem;
+    }
+    #map {
+        width: 40%;
+        height: initial;
+    }
+
+    .boxes {
+        font-size: initial;
+        width: 60%;
+        padding-left: 1rem;
+        box-sizing: border-box;
+    }
+
+}
+
+/* Leaflet icons */
+.blue-icon {
+    background-color: #575757;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.green-icon {
+    background-color: #0A3A40;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}

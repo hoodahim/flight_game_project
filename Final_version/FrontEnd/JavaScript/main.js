@@ -11,6 +11,6 @@ map.setView([60, 24], 7);
 document.querySelector('#player-form').addEventListener('submit', function (evt) {
   evt.preventDefault();
   const playerName = document.querySelector('#player-input').value;
-  document.getElementById('replace-name').innerHTML = playerName
+  document.getElementById('replace-name').innerHTML = `<b>${playerName}</b>`;
   document.querySelector('#player-modal').classList.add('hide');
 });
