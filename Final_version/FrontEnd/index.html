@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"/>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" defer></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js" defer></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js" defer></script>
+    <script src="JavaScript/main.js" defer></script>
+    <title>Fairweather Tourist - Game</title>
+</head>
+<body>
+<div class="container">
+    <header class="page-header">
+        <h1 class="page-title">Fairweather Tourist</h1>
+        <nav>
+            <ul class="flex-wrap space-evenly">
+                <li>
+                    <a class="button button-white" href="index.html">Game</a>
+                </li>
+                <li>
+                    <a class="button button-white" href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex-wrap">
+        <div id="map">
+
+
+        </div>
+        <div class="boxes">
+            <section class="box">
+                <table>
+                    <tr>
+                        <td id="replace-name">Player's Name</td>
+                        <td>0 points</td>
+                    </tr>
+                    <tr>
+                        <td><b>Current weather</b></td>
+                        <td>Temperature: 20°C</td>
+                        <td>Cloudy</td>
+                        <td>Wind: 3m/s</td>
+                    </tr>
+                    <tr>
+                        <td>CO2 generated: 0kg</td>
+                        <td>Available CO2: 3750kg</td>
+                    </tr>
+                </table>
+            </section>
+            <section class="box">
+                <p>Output for player</p>
+            </section>
+            <section class="box">
+                <p><b>Weather goals</b></p>
+                <ul class="flex-wrap" id="goals">
+                    <li>
+                        <figure>
+                            <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="Goal weather icon">
+                            <figcaption>Sunny (+15°C)</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="https://openweathermap.org/img/wn/10n@2x.png" alt="Goal weather icon">
+                            <figcaption>Rainy</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="Goal weather icon">
+                            <figcaption>Cloudy</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="https://openweathermap.org/img/wn/50n@2x.png" alt="Goal weather icon">
+                            <figcaption>Windy (+10m/s)</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="https://openweathermap.org/img/wn/13d@2x.png" alt="Goal weather icon">
+                            <figcaption>Snowy</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+            <section class="box">
+                <p><b>Secret locations</b></p>
+                <ul class="flex-wrap">
+                    <li>“Fancying a Pint?”: learning that “bangers” do not necessarily mean something dirty</li>
+                    <li>“Waves of South”: surfing lessons for the fainthearted</li>
+                    <li>“Charles’ Eastern Comfort”: heavy food today, cholesterol tomorrow</li>
+                    <li>“We’re Going to Ibiza!”: does it need an explanation?</li>
+                    <li>“Fjords and riches”: Old home of great sailor warriors and grand mountains</li>
+                    <li>Easter Egg: “ I was once called an old dame. In daylight I’m proudly wearing my scars of
+                        history, but when the night falls I put on my jewels to mesmerise you with my thousand sparks.”
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <p>We hope you enjoyed playing this :)</p>
+    </footer>
+    <div class="goal hide">
+        <h2>Yayyyy!</h2>
+        <p>
+            <span id="goal-text">Success :)</span>
+        </p>
+    </div>
+</div>
+<div id="player-modal">
+    <form id="player-form">
+        <input id="player-input" type="text" placeholder="Player name" required>
+        <input type="submit" value="Start game">
+    </form>
+</div>
+</body>
+</html>
