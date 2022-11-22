@@ -21,12 +21,8 @@
         <h1 class="page-title">Fairweather Tourist</h1>
         <nav>
             <ul class="flex-wrap">
-                <li>
-                    <a href="index.html">Game</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
+                <li><a href="index.html">Game</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </nav>
     </header>
@@ -36,17 +32,22 @@
             <section class="box">
                 <table id="first-box">
                     <tr>
-                        <td id="replace-name" colspan="1">Player's Name</td>
+                        <td id="replace-name">Player's Name</td>
                         <td colspan="2">0 points</td>
                     </tr>
                     <tr>
-                        <td >Temperature: 20°C</td>
-                        <td >Cloudy</td>
-                        <td >Wind: 3m/s</td>
+                        <td id="current-airport">Airport name</td>
+                        <td id="current-city">City</td>
+                        <td id="current-country">Country</td>
                     </tr>
                     <tr>
-                        <td colspan="1">CO2 generated: 0kg</td>
-                        <td colspan="2">Available CO2: 3750kg</td>
+                        <td id="current-temperature">Temperature: 20°C</td>
+                        <td id="current-weather-condition">Cloudy</td>
+                        <td id="current-wind-speed">Wind: 3m/s</td>
+                    </tr>
+                    <tr>
+                        <td id="current-co2-consumed">CO2 generated: 0kg</td>
+                        <td id="current-co2-available" colspan="2">Available CO2: 3500kg</td>
                     </tr>
                 </table>
             </section>
@@ -83,7 +84,7 @@
                     <li>
                         <figure>
                             <img src="https://openweathermap.org/img/wn/13d@2x.png" alt="Goal weather icon">
-                            <figcaption>Snowy</figcaption>
+                            <figcaption>Snows</figcaption>
                         </figure>
                     </li>
                 </ul>
@@ -114,7 +115,7 @@
 </div>
 <div id="player-modal">
     <form id="player-form">
-        <input id="player-input" type="text" placeholder="Player name" required>
+        <input id="player-input" type="text" placeholder="Enter a username" required>
         <input type="submit" value="Start game">
     </form>
 </div>

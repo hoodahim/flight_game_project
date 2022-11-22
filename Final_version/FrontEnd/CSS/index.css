@@ -1,12 +1,13 @@
 /* variables */
 :root {
     --black: rgb(23, 23, 23);
-    --white: rgb(253, 253, 253);
-    --dark-blue: rgb(70, 82, 95);
-    --purple: rgb(96, 88, 99);
-    --light-purple: rgb(112, 92, 99);
-    --dark-pastel: rgb(127, 98, 101);
-    --pastel: rgb(135, 103, 100);
+    --white: rgb(255, 250, 229);
+    --darkest-blue: rgb(25, 46, 64);
+    --darker-blue: rgb(39, 79, 114);
+    --blue: rgb(77, 115, 139);
+    --text-blue: rgb(59, 88, 107);
+    --lighter-blue: rgb(146, 178, 190);
+    --lightest-blue: rgb(175, 216, 208);
 }
 
 /* utilities */
@@ -15,14 +16,14 @@ nav ul li a {
     text-decoration: none;
     text-align: center;
     transition: all 300ms;
-    color: floralwhite;
+    color: var(--white);
 }
 
 nav ul li::after{
     content: '';
     width: 0;
     height: 2px;
-    background-color: var(--light-purple);
+    background-color: var(--white);
     display: block;
     margin: auto;
     transition: 1.5s;
@@ -30,7 +31,7 @@ nav ul li::after{
 
 nav ul li:hover::after{
     width: 100%;
-    background: floralwhite;
+    background: var(--white);
 }
 
 .flex-wrap {
@@ -47,8 +48,9 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Libre Baskerville', serif;
-    background-color: #fffcfc;
+    background-color: rgba(218, 229, 227, 0.22);
     scroll-behavior: smooth;
+    color: var(--text-blue);
 }
 
 .container {
@@ -57,12 +59,20 @@ html, body {
 }
 
 .page-header {
-    background-color: #605864;
-    color: floralwhite;
-    text-shadow: rgba(0, 0, 0, 0.9) 3px 3px 10px;
+    background-color: var(--lighter-blue);
+    color: var(--white);
+    text-shadow: var(--darker-blue) 3px 3px 10px;
     display: flex;
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 10px;
+    box-shadow: rgba(77, 115, 139, 0.3) 3px 3px 10px;
+}
+
+.page-footer {
+    background-color:var(--lighter-blue);
+    color: var(--white);
+    text-shadow: var(--darker-blue) 3px 3px 10px;
+    text-align: center;
+    padding: 1rem;
 }
 
 .page-title {
@@ -116,7 +126,7 @@ ul {
 
 #map, .box {
     border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 10px;
+    box-shadow: rgba(146, 178, 190, 0.49) 3px 3px 10px;
     margin-bottom: 0.6rem;
 }
 
@@ -128,18 +138,9 @@ ul {
 .box table {
     width: 100%;
     text-align: center;
-    border: var(--dark-pastel) solid 1px;
+    border: var(--lighter-blue) solid 1px;
     border-radius: 4px;
     line-height: 2rem;
-}
-
-#first-box{
-    border-collapse: collapse;
-}
-
-#first-box tr {
-    border: var(--dark-blue) solid 1px;
-    border-radius: 4px;
 }
 
 .text-box {
@@ -153,7 +154,7 @@ p {
 .box li {
     width: calc(50% - 0.6rem);
     text-align: center;
-    border: var(--dark-blue) solid 1px;
+    border: var(--lighter-blue) solid 1px;
     border-radius: 4px;
     box-sizing: border-box;
     padding: 0.3rem;
@@ -167,6 +168,7 @@ p {
 .riddle {
     line-height: 1.4rem;
 }
+
 .goal {
     background-image: url('../Images/splatter.png');
     background-size: contain;
@@ -185,38 +187,32 @@ p {
     margin: 0.5rem;
 }
 
-.page-footer {
-    background-color: #605864;
-    color: floralwhite;
-    text-shadow: rgba(0, 0, 0, 0.9) 3px 3px 10px;
-    text-align: center;
-    padding: 1rem;
-}
-
 #player-modal {
     width: 100vw;
-    height: 168vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    height: 130vh;
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
     z-index: 9999;
-    color: #fdfdfd;
+    color: var(--white);
+
 }
 
 #player-form {
     display: flex;
-    width: 50%;
-    margin: 4rem auto;
+    width: 40%;
+    margin: 15rem auto;
     flex-direction: column;
 }
 
 #player-form input {
     padding: 1rem;
+    font-size: 1.4rem;
 }
 
 .done {
-    background-color: #afafaf;
-    opacity: 0.25;
+    background-color: #F2E4DC;
+    opacity: 0.15;
 }
 
 .lead-img {
@@ -250,7 +246,7 @@ p {
 }
 
 .green-icon {
-    background-color: #0A3A40;
+    background-color: var(--darkest-blue);
     border-radius: 50%;
-    border: 5px solid rgba(255, 255, 255, 0.5);
+    border: 5px solid rgba(39, 79, 114, 0.5);
 }
