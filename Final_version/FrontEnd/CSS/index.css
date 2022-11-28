@@ -239,14 +239,15 @@ p {
 }
 
 /* Leaflet icons */
-.blue-icon {
-    background-color: #575757;
+.active-icon {
+    background-color: #9ec031;
     border-radius: 50%;
-    border: 5px solid rgba(255, 255, 255, 0.5);
+    border: 2px solid #daf027;
 }
 
-.green-icon {
-    background-color: var(--darkest-blue);
+.passive-icon {
+    background-color: #a2aa77;
     border-radius: 50%;
-    border: 5px solid rgba(39, 79, 114, 0.5);
+    border: 2px solid #808173;
 }
+
