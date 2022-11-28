@@ -185,8 +185,8 @@ while score < 3000 and co2_consumed < 3500:
                 print(f"'Sunny' goal reached: +{base_score}")
                 print(f"New score: {score}")
 
-    if new_location == "ENGM" or weather_condition == 'Snow':                         # Oslo & snow
-        if new_location == "ENGM" and weather_condition == 'Snow':
+    if new_location == "BIKF" or weather_condition == 'Snow':                         # Rejkjavik & snow
+        if new_location == "BIKF" and weather_condition == 'Snow':
             if goal_snow:
                 score += base_score * 2
                 goal_snow = False
@@ -197,7 +197,7 @@ while score < 3000 and co2_consumed < 3500:
                 print(f"Oslo guessed, but 'Snows' goal reached earlier: +{location_score}")
                 print(f"New score: {score}")
 
-        elif new_location == "ENGM":
+        elif new_location == "BIKF":
             score += location_score
             print(f"Oslo guessed, but not the weather goal: +{location_score}")
             print(f"New score: {score}")
