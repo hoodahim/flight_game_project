@@ -1,0 +1,1077 @@
+{
+  "location": [
+    {
+      "ident": "LATI",
+      "active": false,
+      "name": "Tirana International Airport Mother Tere",
+      "location": "Tirana",
+      "country": "Albania",
+      "latitude": 41.4146995544,
+      "longitude": 19.7206001282
+    },
+    {
+      "ident": "LOWW",
+      "active": false,
+      "name": "Vienna International Airport",
+      "location": "Vienna",
+      "country": "Austria",
+      "latitude": 48.110298,
+      "longitude": 16.5697
+    },
+    {
+      "ident": "EBBR",
+      "active": false,
+      "name": "Brussels Airport",
+      "location": "Brussels",
+      "country": "Belgium",
+      "latitude": 50.901401519800004,
+      "longitude": 4.48443984985
+    },
+    {
+      "ident": "LBBG",
+      "active": false,
+      "name": "Burgas Airport",
+      "location": "Burgas",
+      "country": "Bulgaria",
+      "latitude": 42.56959915161133,
+      "longitude": 27.515199661254883
+    },
+    {
+      "ident": "LBSF",
+      "active": false,
+      "name": "Sofia Airport",
+      "location": "Sofia",
+      "country": "Bulgaria",
+      "latitude": 42.696693420410156,
+      "longitude": 23.411436080932617
+    },
+    {
+      "ident": "LBWN",
+      "active": false,
+      "name": "Varna Airport",
+      "location": "Varna",
+      "country": "Bulgaria",
+      "latitude": 43.232101,
+      "longitude": 27.8251
+    },
+    {
+      "ident": "UMMS",
+      "active": false,
+      "name": "Minsk National Airport",
+      "location": "Minsk",
+      "country": "Belarus",
+      "latitude": 53.888071,
+      "longitude": 28.039964
+    },
+    {
+      "ident": "LSGG",
+      "active": false,
+      "name": "Geneva Cointrin International Airport",
+      "location": "Geneva",
+      "country": "Switzerland",
+      "latitude": 46.23809814453125,
+      "longitude": 6.108950138092041
+    },
+    {
+      "ident": "LSZH",
+      "active": false,
+      "name": "Zürich Airport",
+      "location": "Zurich",
+      "country": "Switzerland",
+      "latitude": 47.458056,
+      "longitude": 8.548056
+    },
+    {
+      "ident": "LKPR",
+      "active": false,
+      "name": "Vaclav Havel Airport Prague",
+      "location": "Prague",
+      "country": "Czech Republic",
+      "latitude": 50.1008,
+      "longitude": 14.26
+    },
+    {
+      "ident": "EDDB",
+      "active": false,
+      "name": "Berlin Brandenburg Airport",
+      "location": "Berlin",
+      "country": "Germany",
+      "latitude": 52.351389,
+      "longitude": 13.493889
+    },
+    {
+      "ident": "EDDF",
+      "active": false,
+      "name": "Frankfurt am Main Airport",
+      "location": "Frankfurt am Main",
+      "country": "Germany",
+      "latitude": 50.036249,
+      "longitude": 8.559294
+    },
+    {
+      "ident": "EDDH",
+      "active": false,
+      "name": "Hamburg Helmut Schmidt Airport",
+      "location": "Hamburg",
+      "country": "Germany",
+      "latitude": 53.630402,
+      "longitude": 9.98823
+    },
+    {
+      "ident": "EDDK",
+      "active": false,
+      "name": "Cologne Bonn Airport",
+      "location": "Cologne",
+      "country": "Germany",
+      "latitude": 50.8658981323,
+      "longitude": 7.1427397728
+    },
+    {
+      "ident": "EDDL",
+      "active": false,
+      "name": "Düsseldorf Airport",
+      "location": "Düsseldorf",
+      "country": "Germany",
+      "latitude": 51.289501,
+      "longitude": 6.76678
+    },
+    {
+      "ident": "EDDM",
+      "active": false,
+      "name": "Munich Airport",
+      "location": "Munich",
+      "country": "Germany",
+      "latitude": 48.353802,
+      "longitude": 11.7861
+    },
+    {
+      "ident": "EDDN",
+      "active": false,
+      "name": "Nuremberg Airport",
+      "location": "Nuremberg",
+      "country": "Germany",
+      "latitude": 49.498699,
+      "longitude": 11.078056
+    },
+    {
+      "ident": "EDDP",
+      "active": false,
+      "name": "Leipzig/Halle Airport",
+      "location": "Leipzig",
+      "country": "Germany",
+      "latitude": 51.423889,
+      "longitude": 12.236389
+    },
+    {
+      "ident": "EDDS",
+      "active": false,
+      "name": "Stuttgart Airport",
+      "location": "Stuttgart",
+      "country": "Germany",
+      "latitude": 48.689899444599995,
+      "longitude": 9.22196006775
+    },
+    {
+      "ident": "EDDV",
+      "active": false,
+      "name": "Hannover Airport",
+      "location": "Hannover",
+      "country": "Germany",
+      "latitude": 52.461101532,
+      "longitude": 9.685079574580001
+    },
+    {
+      "ident": "EKBI",
+      "active": false,
+      "name": "Billund Airport",
+      "location": "Billund",
+      "country": "Denmark",
+      "latitude": 55.7402992249,
+      "longitude": 9.15178012848
+    },
+    {
+      "ident": "EKCH",
+      "active": false,
+      "name": "Copenhagen Kastrup Airport",
+      "location": "Copenhagen",
+      "country": "Denmark",
+      "latitude": 55.617900848389,
+      "longitude": 12.656000137329
+    },
+    {
+      "ident": "EETN",
+      "active": false,
+      "name": "Lennart Meri Tallinn Airport",
+      "location": "Tallinn",
+      "country": "Estonia",
+      "latitude": 59.41329956049999,
+      "longitude": 24.832799911499997
+    },
+    {
+      "ident": "GCFV",
+      "active": false,
+      "name": "Fuerteventura Airport",
+      "location": "Fuerteventura Island",
+      "country": "Spain",
+      "latitude": 28.4527,
+      "longitude": -13.8638
+    },
+    {
+      "ident": "GCLP",
+      "active": false,
+      "name": "Gran Canaria Airport",
+      "location": "Gran Canaria Island",
+      "country": "Spain",
+      "latitude": 27.9319,
+      "longitude": -15.3866
+    },
+    {
+      "ident": "GCRR",
+      "active": false,
+      "name": "Cesar Manrique-Lanzarote Airport",
+      "location": "Lanzarote Island",
+      "country": "Spain",
+      "latitude": 28.945499,
+      "longitude": -13.6052
+    },
+    {
+      "ident": "GCTS",
+      "active": false,
+      "name": "Tenerife Sur Airport",
+      "location": "Tenerife",
+      "country": "Spain",
+      "latitude": 28.0445,
+      "longitude": -16.5725
+    },
+    {
+      "ident": "LEAL",
+      "active": false,
+      "name": "Alicante-Elche Miguel Hernandez Airport",
+      "location": "Alicante",
+      "country": "Spain",
+      "latitude": 38.2822,
+      "longitude": -0.558156
+    },
+    {
+      "ident": "LEBL",
+      "active": false,
+      "name": "Josep Tarradellas Barcelona-El Prat Airport",
+      "location": "Barcelona",
+      "country": "Spain",
+      "latitude": 41.2971,
+      "longitude": 2.07846
+    },
+    {
+      "ident": "LEIB",
+      "active": false,
+      "name": "Ibiza Airport",
+      "location": "Ibiza",
+      "country": "Spain",
+      "latitude": 38.872898,
+      "longitude": 1.37312
+    },
+    {
+      "ident": "LEMD",
+      "active": false,
+      "name": "Adolfo Suárez Madrid?Barajas Airport",
+      "location": "Madrid",
+      "country": "Spain",
+      "latitude": 40.471926,
+      "longitude": -3.56264
+    },
+    {
+      "ident": "LEMG",
+      "active": false,
+      "name": "Malaga-Costa del Sol Airport",
+      "location": "Malaga",
+      "country": "Spain",
+      "latitude": 36.6749,
+      "longitude": -4.49911
+    },
+    {
+      "ident": "LEPA",
+      "active": false,
+      "name": "Palma de Mallorca Airport",
+      "location": "Palma De Mallorca",
+      "country": "Spain",
+      "latitude": 39.551701,
+      "longitude": 2.73881
+    },
+    {
+      "ident": "LEST",
+      "active": false,
+      "name": "Santiago-Rosalia de Castro Airport",
+      "location": "Santiago de Compostela",
+      "country": "Spain",
+      "latitude": 42.896301,
+      "longitude": -8.41514
+    },
+    {
+      "ident": "EFHK",
+      "active": true,
+      "name": "Helsinki-Vantaa Airport",
+      "location": "Helsinki",
+      "country": "Finland",
+      "latitude": 60.3172,
+      "longitude": 24.963301,
+      "weather": {
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "https://openweathermap.org/img/wn/01n.png",
+        "temp": 2,
+        "humidity": 36,
+        "wind": {
+          "speed": 5.08,
+          "deg": 80
+        }
+      }
+    },
+    {
+      "ident": "LFBD",
+      "active": false,
+      "name": "Bordeaux-Mérignac Airport",
+      "location": "Bordeaux/Mérignac",
+      "country": "France",
+      "latitude": 44.8283,
+      "longitude": -0.715556
+    },
+    {
+      "ident": "LFBO",
+      "active": false,
+      "name": "Toulouse-Blagnac Airport",
+      "location": "Toulouse/Blagnac",
+      "country": "France",
+      "latitude": 43.629101,
+      "longitude": 1.36382
+    },
+    {
+      "ident": "LFLL",
+      "active": false,
+      "name": "Lyon Saint-Exupéry Airport",
+      "location": "Lyon",
+      "country": "France",
+      "latitude": 45.725556,
+      "longitude": 5.081111
+    },
+    {
+      "ident": "LFML",
+      "active": false,
+      "name": "Marseille Provence Airport",
+      "location": "Marseille",
+      "country": "France",
+      "latitude": 43.439271922,
+      "longitude": 5.22142410278
+    },
+    {
+      "ident": "LFMN",
+      "active": false,
+      "name": "Nice-Cote d'Azur Airport",
+      "location": "Nice",
+      "country": "France",
+      "latitude": 43.6584014893,
+      "longitude": 7.215869903560001
+    },
+    {
+      "ident": "LFPG",
+      "active": false,
+      "name": "Charles de Gaulle International Airport",
+      "location": "Paris",
+      "country": "France",
+      "latitude": 49.012798,
+      "longitude": 2.55
+    },
+    {
+      "ident": "LFPO",
+      "active": false,
+      "name": "Paris-Orly Airport",
+      "location": "Paris",
+      "country": "France",
+      "latitude": 48.7233333,
+      "longitude": 2.3794444
+    },
+    {
+      "ident": "LFSB",
+      "active": false,
+      "name": "EuroAirport Basel-Mulhouse-Freiburg Airport",
+      "location": "Mulhouse",
+      "country": "France",
+      "latitude": 47.59,
+      "longitude": 7.529167
+    },
+    {
+      "ident": "EGAA",
+      "active": false,
+      "name": "Belfast International Airport",
+      "location": "Belfast",
+      "country": "United Kingdom",
+      "latitude": 54.6575012207,
+      "longitude": -6.2158298492399995
+    },
+    {
+      "ident": "EGBB",
+      "active": false,
+      "name": "Birmingham International Airport",
+      "location": "Birmingham",
+      "country": "United Kingdom",
+      "latitude": 52.453899383499994,
+      "longitude": -1.74802994728
+    },
+    {
+      "ident": "EGCC",
+      "active": false,
+      "name": "Manchester Airport",
+      "location": "Manchester",
+      "country": "United Kingdom",
+      "latitude": 53.349375,
+      "longitude": -2.279521
+    },
+    {
+      "ident": "EGGW",
+      "active": false,
+      "name": "London Luton Airport",
+      "location": "London",
+      "country": "United Kingdom",
+      "latitude": 51.874698638916016,
+      "longitude": -0.36833301186561584
+    },
+    {
+      "ident": "EGKK",
+      "active": false,
+      "name": "London Gatwick Airport",
+      "location": "London",
+      "country": "United Kingdom",
+      "latitude": 51.148102,
+      "longitude": -0.190278
+    },
+    {
+      "ident": "EGLL",
+      "active": false,
+      "name": "London Heathrow Airport",
+      "location": "London",
+      "country": "United Kingdom",
+      "latitude": 51.4706,
+      "longitude": -0.461941
+    },
+    {
+      "ident": "EGPF",
+      "active": false,
+      "name": "Glasgow International Airport",
+      "location": "Paisley, Renfrewshire",
+      "country": "United Kingdom",
+      "latitude": 55.871899,
+      "longitude": -4.43306
+    },
+    {
+      "ident": "EGPH",
+      "active": false,
+      "name": "Edinburgh Airport",
+      "location": "Edinburgh",
+      "country": "United Kingdom",
+      "latitude": 55.950145,
+      "longitude": -3.372288
+    },
+    {
+      "ident": "EGSS",
+      "active": false,
+      "name": "London Stansted Airport",
+      "location": "London",
+      "country": "United Kingdom",
+      "latitude": 51.8849983215,
+      "longitude": 0.234999999404
+    },
+    {
+      "ident": "LGAV",
+      "active": false,
+      "name": "Athens Eleftherios Venizelos Internation",
+      "location": "Athens",
+      "country": "Greece",
+      "latitude": 37.936401,
+      "longitude": 23.9445
+    },
+    {
+      "ident": "LGIR",
+      "active": false,
+      "name": "Heraklion International Nikos Kazantzaki",
+      "location": "Heraklion",
+      "country": "Greece",
+      "latitude": 35.3396987915,
+      "longitude": 25.180299758900002
+    },
+    {
+      "ident": "LGTS",
+      "active": false,
+      "name": "Thessaloniki Macedonia International Air",
+      "location": "Thessaloniki",
+      "country": "Greece",
+      "latitude": 40.51969909667969,
+      "longitude": 22.97089958190918
+    },
+    {
+      "ident": "LDZA",
+      "active": false,
+      "name": "Zagreb Airport",
+      "location": "Zagreb",
+      "country": "Croatia",
+      "latitude": 45.7429008484,
+      "longitude": 16.0687999725
+    },
+    {
+      "ident": "LHBP",
+      "active": false,
+      "name": "Budapest Liszt Ferenc International Airport",
+      "location": "Budapest",
+      "country": "Hungary",
+      "latitude": 47.42976,
+      "longitude": 19.261093
+    },
+    {
+      "ident": "EIDW",
+      "active": false,
+      "name": "Dublin Airport",
+      "location": "Dublin",
+      "country": "Ireland",
+      "latitude": 53.421299,
+      "longitude": -6.27007
+    },
+    {
+      "ident": "EINN",
+      "active": false,
+      "name": "Shannon Airport",
+      "location": "Shannon",
+      "country": "Ireland",
+      "latitude": 52.702,
+      "longitude": -8.92482
+    },
+    {
+      "ident": "BIKF",
+      "active": false,
+      "name": "Keflavik International Airport",
+      "location": "Reykjavik",
+      "country": "Iceland",
+      "latitude": 63.985001,
+      "longitude": -22.6056
+    },
+    {
+      "ident": "LICC",
+      "active": false,
+      "name": "Catania-Fontanarossa Airport",
+      "location": "Catania",
+      "country": "Italy",
+      "latitude": 37.466801,
+      "longitude": 15.0664
+    },
+    {
+      "ident": "LICJ",
+      "active": false,
+      "name": "Falcone Borsellino Airport",
+      "location": "Palermo",
+      "country": "Italy",
+      "latitude": 38.175999,
+      "longitude": 13.091
+    },
+    {
+      "ident": "LIEE",
+      "active": false,
+      "name": "Cagliari Elmas Airport",
+      "location": "Cagliari",
+      "country": "Italy",
+      "latitude": 39.251499,
+      "longitude": 9.05428
+    },
+    {
+      "ident": "LIMC",
+      "active": false,
+      "name": "Malpensa International Airport",
+      "location": "Milan",
+      "country": "Italy",
+      "latitude": 45.6306,
+      "longitude": 8.72811
+    },
+    {
+      "ident": "LIME",
+      "active": false,
+      "name": "Milan Bergamo Airport",
+      "location": "Milan",
+      "country": "Italy",
+      "latitude": 45.673901,
+      "longitude": 9.70417
+    },
+    {
+      "ident": "LIMF",
+      "active": false,
+      "name": "Turin Airport",
+      "location": "Torino",
+      "country": "Italy",
+      "latitude": 45.200802,
+      "longitude": 7.64963
+    },
+    {
+      "ident": "LIPE",
+      "active": false,
+      "name": "Bologna Guglielmo Marconi Airport",
+      "location": "Bologna",
+      "country": "Italy",
+      "latitude": 44.5354,
+      "longitude": 11.2887
+    },
+    {
+      "ident": "LIPX",
+      "active": false,
+      "name": "Verona Villafranca Airport",
+      "location": "Verona",
+      "country": "Italy",
+      "latitude": 45.395699,
+      "longitude": 10.8885
+    },
+    {
+      "ident": "LIPZ",
+      "active": false,
+      "name": "Venice Marco Polo Airport",
+      "location": "Venice",
+      "country": "Italy",
+      "latitude": 45.505299,
+      "longitude": 12.3519
+    },
+    {
+      "ident": "LIRF",
+      "active": false,
+      "name": "Rome: Fiumicino Leonardo da Vinci International Airport",
+      "location": "Rome",
+      "country": "Italy",
+      "latitude": 41.804532,
+      "longitude": 12.251998
+    },
+    {
+      "ident": "LIRN",
+      "active": false,
+      "name": "Naples International Airport",
+      "location": "Napoli",
+      "country": "Italy",
+      "latitude": 40.886002,
+      "longitude": 14.2908
+    },
+    {
+      "ident": "LIRP",
+      "active": false,
+      "name": "Pisa International Airport",
+      "location": "Pisa",
+      "country": "Italy",
+      "latitude": 43.683899,
+      "longitude": 10.3927
+    },
+    {
+      "ident": "EYVI",
+      "active": false,
+      "name": "Vilnius International Airport",
+      "location": "Vilnius",
+      "country": "Lithuania",
+      "latitude": 54.634102,
+      "longitude": 25.285801
+    },
+    {
+      "ident": "ELLX",
+      "active": false,
+      "name": "Luxembourg-Findel International Airport",
+      "location": "Luxembourg",
+      "country": "Luxembourg",
+      "latitude": 49.6233333,
+      "longitude": 6.2044444
+    },
+    {
+      "ident": "EVRA",
+      "active": false,
+      "name": "Riga International Airport",
+      "location": "Riga",
+      "country": "Latvia",
+      "latitude": 56.92359924316406,
+      "longitude": 23.971099853515625
+    },
+    {
+      "ident": "LYPG",
+      "active": false,
+      "name": "Podgorica Airport / Podgorica Golubovci ",
+      "location": "Podgorica",
+      "country": "Montenegro",
+      "latitude": 42.359402,
+      "longitude": 19.2519
+    },
+    {
+      "ident": "LWSK",
+      "active": false,
+      "name": "Skopje International Airport",
+      "location": "Skopje",
+      "country": "North Macedonia",
+      "latitude": 41.961601,
+      "longitude": 21.621401
+    },
+    {
+      "ident": "LMML",
+      "active": false,
+      "name": "Malta International Airport",
+      "location": "Valletta",
+      "country": "Malta",
+      "latitude": 35.857498,
+      "longitude": 14.4775
+    },
+    {
+      "ident": "EHAM",
+      "active": false,
+      "name": "Amsterdam Airport Schiphol",
+      "location": "Amsterdam",
+      "country": "Netherlands",
+      "latitude": 52.308601,
+      "longitude": 4.76389
+    },
+    {
+      "ident": "EHEH",
+      "active": false,
+      "name": "Eindhoven Airport",
+      "location": "Eindhoven",
+      "country": "Netherlands",
+      "latitude": 51.4500999451,
+      "longitude": 5.37452983856
+    },
+    {
+      "ident": "ENBR",
+      "active": false,
+      "name": "Bergen Airport, Flesland",
+      "location": "Bergen",
+      "country": "Norway",
+      "latitude": 60.2934,
+      "longitude": 5.21814
+    },
+    {
+      "ident": "ENGM",
+      "active": false,
+      "name": "Oslo Airport, Gardermoen",
+      "location": "Oslo",
+      "country": "Norway",
+      "latitude": 60.193901,
+      "longitude": 11.1004
+    },
+    {
+      "ident": "ENTC",
+      "active": false,
+      "name": "Tromso Airport, Langnes",
+      "location": "Tromso",
+      "country": "Norway",
+      "latitude": 69.683296,
+      "longitude": 18.9189
+    },
+    {
+      "ident": "ENVA",
+      "active": false,
+      "name": "Trondheim Airport",
+      "location": "Trondheim",
+      "country": "Norway",
+      "latitude": 63.457802,
+      "longitude": 10.924
+    },
+    {
+      "ident": "ENZV",
+      "active": false,
+      "name": "Stavanger Airport, Sola",
+      "location": "Stavanger",
+      "country": "Norway",
+      "latitude": 58.876701,
+      "longitude": 5.63778
+    },
+    {
+      "ident": "EPGD",
+      "active": false,
+      "name": "Gdansk Lech Walesa Airport",
+      "location": "Gdansk",
+      "country": "Poland",
+      "latitude": 54.377601623535156,
+      "longitude": 18.46619987487793
+    },
+    {
+      "ident": "EPKK",
+      "active": false,
+      "name": "Krakow John Paul II International Airport",
+      "location": "Krakow",
+      "country": "Poland",
+      "latitude": 50.077702,
+      "longitude": 19.7848
+    },
+    {
+      "ident": "EPWA",
+      "active": false,
+      "name": "Warsaw Chopin Airport",
+      "location": "Warsaw",
+      "country": "Poland",
+      "latitude": 52.1656990051,
+      "longitude": 20.967100143399996
+    },
+    {
+      "ident": "LPFR",
+      "active": false,
+      "name": "Faro Airport",
+      "location": "Faro",
+      "country": "Portugal",
+      "latitude": 37.0144004822,
+      "longitude": -7.96590995789
+    },
+    {
+      "ident": "LPPD",
+      "active": false,
+      "name": "Jo?o Paulo II Airport",
+      "location": "Ponta Delgada",
+      "country": "Portugal",
+      "latitude": 37.7411994934,
+      "longitude": -25.6979007721
+    },
+    {
+      "ident": "LPPR",
+      "active": false,
+      "name": "Francisco de Sá Carneiro Airport",
+      "location": "Porto",
+      "country": "Portugal",
+      "latitude": 41.2481002808,
+      "longitude": -8.68138980865
+    },
+    {
+      "ident": "LPPT",
+      "active": false,
+      "name": "Humberto Delgado Airport (Lisbon Portela)",
+      "location": "Lisbon",
+      "country": "Portugal",
+      "latitude": 38.7813,
+      "longitude": -9.13592
+    },
+    {
+      "ident": "LROP",
+      "active": false,
+      "name": "Henri Coanda International Airport",
+      "location": "Bucharest",
+      "country": "Romania",
+      "latitude": 44.5711111,
+      "longitude": 26.085
+    },
+    {
+      "ident": "LYBE",
+      "active": false,
+      "name": "Belgrade Nikola Tesla Airport",
+      "location": "Belgrade",
+      "country": "Serbia",
+      "latitude": 44.8184013367,
+      "longitude": 20.3090991974
+    },
+    {
+      "ident": "RU-0016",
+      "active": false,
+      "name": "Lipetsk Air Base",
+      "location": "Lipetsk",
+      "country": "Russia",
+      "latitude": 52.6349983215332,
+      "longitude": 39.44499969482422
+    },
+    {
+      "ident": "RU-0035",
+      "active": false,
+      "name": "Grozny North Airport",
+      "location": "Grozny",
+      "country": "Russia",
+      "latitude": 43.388302,
+      "longitude": 45.698601
+    },
+    {
+      "ident": "RU-4464",
+      "active": false,
+      "name": "Olenya Air Base",
+      "location": "Olenegorsk",
+      "country": "Russia",
+      "latitude": 68.151802062988,
+      "longitude": 33.463901519775
+    },
+    {
+      "ident": "UHWW",
+      "active": false,
+      "name": "Vladivostok International Airport",
+      "location": "Artyom",
+      "country": "Russia",
+      "latitude": 43.396256,
+      "longitude": 132.148155
+    },
+    {
+      "ident": "ULLI",
+      "active": false,
+      "name": "Pulkovo Airport",
+      "location": "St. Petersburg",
+      "country": "Russia",
+      "latitude": 59.80030059814453,
+      "longitude": 30.262500762939453
+    },
+    {
+      "ident": "UNKL",
+      "active": false,
+      "name": "Krasnoyarsk International Airport",
+      "location": "Krasnoyarsk",
+      "country": "Russia",
+      "latitude": 56.173077,
+      "longitude": 92.492437
+    },
+    {
+      "ident": "UNNT",
+      "active": false,
+      "name": "Novosibirsk Tolmachevo Airport",
+      "location": "Novosibirsk",
+      "country": "Russia",
+      "latitude": 55.019756,
+      "longitude": 82.618675
+    },
+    {
+      "ident": "URRP",
+      "active": false,
+      "name": "Platov International Airport",
+      "location": "Rostov-on-Don",
+      "country": "Russia",
+      "latitude": 47.493888,
+      "longitude": 39.924722
+    },
+    {
+      "ident": "URSS",
+      "active": false,
+      "name": "Sochi International Airport",
+      "location": "Sochi",
+      "country": "Russia",
+      "latitude": 43.449902,
+      "longitude": 39.9566
+    },
+    {
+      "ident": "USSS",
+      "active": false,
+      "name": "Koltsovo Airport",
+      "location": "Yekaterinburg",
+      "country": "Russia",
+      "latitude": 56.743099212646,
+      "longitude": 60.802700042725
+    },
+    {
+      "ident": "UUBW",
+      "active": false,
+      "name": "Zhukovsky International Airport",
+      "location": "Moscow",
+      "country": "Russia",
+      "latitude": 55.553299,
+      "longitude": 38.150002
+    },
+    {
+      "ident": "UUDD",
+      "active": false,
+      "name": "Domodedovo International Airport",
+      "location": "Moscow",
+      "country": "Russia",
+      "latitude": 55.40879821777344,
+      "longitude": 37.90629959106445
+    },
+    {
+      "ident": "UUEE",
+      "active": false,
+      "name": "Sheremetyevo International Airport",
+      "location": "Moscow",
+      "country": "Russia",
+      "latitude": 55.972599,
+      "longitude": 37.4146
+    },
+    {
+      "ident": "UUWW",
+      "active": false,
+      "name": "Vnukovo International Airport",
+      "location": "Moscow",
+      "country": "Russia",
+      "latitude": 55.5914993286,
+      "longitude": 37.2615013123
+    },
+    {
+      "ident": "UWKD",
+      "active": false,
+      "name": "Kazan International Airport",
+      "location": "Kazan",
+      "country": "Russia",
+      "latitude": 55.606201171875,
+      "longitude": 49.278701782227
+    },
+    {
+      "ident": "UWSG",
+      "active": false,
+      "name": "Gagarin International Airport",
+      "location": "Saratov",
+      "country": "Russia",
+      "latitude": 51.712778,
+      "longitude": 46.171111
+    },
+    {
+      "ident": "UWUU",
+      "active": false,
+      "name": "Ufa International Airport",
+      "location": "Ufa",
+      "country": "Russia",
+      "latitude": 54.557498931885,
+      "longitude": 55.874401092529
+    },
+    {
+      "ident": "UWWW",
+      "active": false,
+      "name": "Kurumoch International Airport",
+      "location": "Samara",
+      "country": "Russia",
+      "latitude": 53.504901885986,
+      "longitude": 50.16429901123
+    },
+    {
+      "ident": "ESGG",
+      "active": false,
+      "name": "Gothenburg-Landvetter Airport",
+      "location": "Gothenburg",
+      "country": "Sweden",
+      "latitude": 57.662799835205,
+      "longitude": 12.279800415039
+    },
+    {
+      "ident": "ESSA",
+      "active": false,
+      "name": "Stockholm-Arlanda Airport",
+      "location": "Stockholm",
+      "country": "Sweden",
+      "latitude": 59.651901245117,
+      "longitude": 17.918600082397
+    },
+    {
+      "ident": "LJLJ",
+      "active": false,
+      "name": "Ljubljana Joze Pucnik Airport",
+      "location": "Ljubljana",
+      "country": "Slovenia",
+      "latitude": 46.223701,
+      "longitude": 14.4576
+    },
+    {
+      "ident": "LZIB",
+      "active": false,
+      "name": "M. R. Stefanik Airport",
+      "location": "Bratislava",
+      "country": "Slovakia",
+      "latitude": 48.17020034790039,
+      "longitude": 17.21269989013672
+    },
+    {
+      "ident": "UKBB",
+      "active": false,
+      "name": "Boryspil International Airport",
+      "location": "Kiev",
+      "country": "Ukraine",
+      "latitude": 50.345001220703125,
+      "longitude": 30.894699096679688
+    },
+    {
+      "ident": "UKLL",
+      "active": false,
+      "name": "Lviv International Airport",
+      "location": "Lviv",
+      "country": "Ukraine",
+      "latitude": 49.8125,
+      "longitude": 23.9561
+    }
+  ]
+}
