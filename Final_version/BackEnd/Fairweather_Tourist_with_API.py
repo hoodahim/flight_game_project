@@ -12,7 +12,7 @@ def coordinate_fetcher(icao):
 
 
 def weather_fetcher(lat, lon):
-    api = "628dc836c467279560786b9ec5b2a731"
+    api = "" # ADD YOUR API KEY
     url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api}"
     response = requests.get(url).json()
     temperature_celsius = response['main']['temp'] - 273.25            # converting it to celsius

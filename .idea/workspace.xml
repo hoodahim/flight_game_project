@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5570a376-b013-4b9c-9be1-f1adfda0bca8" name="Changes" comment="Location changed.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5570a376-b013-4b9c-9be1-f1adfda0bca8" name="Changes" comment="Location changed." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,6 +154,7 @@
       <workItem from="1669623282430" duration="24000" />
       <workItem from="1669626159226" duration="1032000" />
       <workItem from="1669636145489" duration="36000" />
+      <workItem from="1669636220679" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="Final version, no more change allowed.">
       <created>1665218153960</created>
@@ -276,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669636175003</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Location changed.">
+      <created>1669636237113</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669636237113</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
