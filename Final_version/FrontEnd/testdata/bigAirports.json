@@ -3,7 +3,7 @@
     {
       "ident": "LATI",
       "active": false,
-      "name": "Tirana International Airport Mother Tere",
+      "name": "Tirana International Airport Mother Teresa",
       "location": "Tirana",
       "country": "Albania",
       "latitude": 41.4146995544,
@@ -491,7 +491,7 @@
     {
       "ident": "LGIR",
       "active": false,
-      "name": "Heraklion International Nikos Kazantzaki",
+      "name": "Heraklion International Airport Nikos Kazantzaki",
       "location": "Heraklion",
       "country": "Greece",
       "latitude": 35.3396987915,
@@ -500,7 +500,7 @@
     {
       "ident": "LGTS",
       "active": false,
-      "name": "Thessaloniki Macedonia International Air",
+      "name": "Thessaloniki Macedonia International Airport",
       "location": "Thessaloniki",
       "country": "Greece",
       "latitude": 40.51969909667969,
@@ -770,7 +770,7 @@
     {
       "ident": "ENZV",
       "active": false,
-      "name": "Stavanger Airport, Sola",
+      "name": "Stavanger Airport",
       "location": "Stavanger",
       "country": "Norway",
       "latitude": 58.876701,
@@ -815,7 +815,7 @@
     {
       "ident": "LPPD",
       "active": false,
-      "name": "Jo?o Paulo II Airport",
+      "name": "Joao Paulo II Airport",
       "location": "Ponta Delgada",
       "country": "Portugal",
       "latitude": 37.7411994934,

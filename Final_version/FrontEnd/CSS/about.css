@@ -52,6 +52,7 @@ html, body {
 .container {
     width: 100%;
     position: relative;
+    height: 120vh;
 }
 
 .page-header {
@@ -103,10 +104,9 @@ ul {
     margin: 0;
 }
 
-article {
-    height: 90vh;
+article{
+    margin-bottom: 1rem;
 }
-
 .about {
     padding-left: 2rem;
 }
@@ -123,10 +123,12 @@ article {
     font-size: 1.2rem;
     margin: 3.5rem 3rem 1rem 0;
     line-height: 2rem;
+    font-style: italic;
+    text-align: center;
 }
 
 .text {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 2rem 3rem 1rem 4.4rem;
     text-align: justify;
     line-height: 1.6rem;
