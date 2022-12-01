@@ -50,6 +50,7 @@
       <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\FrontEnd\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\Gemma_part" />
       <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\FrontEnd\CSS" />
     </key>
   </component>
@@ -159,6 +160,7 @@
       <workItem from="1669636220679" duration="22000" />
       <workItem from="1669640608965" duration="279000" />
       <workItem from="1669642114963" duration="2415000" />
+      <workItem from="1669895778132" duration="1265000" />
     </task>
     <task id="LOCAL-00001" summary="Final version, no more change allowed.">
       <created>1665218153960</created>
@@ -300,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669642203752</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Update.">
+      <created>1669895833141</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1669895833141</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
