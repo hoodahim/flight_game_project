@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5570a376-b013-4b9c-9be1-f1adfda0bca8" name="Changes" comment="Update.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5570a376-b013-4b9c-9be1-f1adfda0bca8" name="Changes" comment="Fixed goal fetcher." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -24,7 +22,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2FoACqVOABlrlYMUt82z60q31y8" />
   <component name="ProjectViewState">
@@ -50,6 +48,7 @@
       <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\FrontEnd\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version" />
       <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\Gemma_part" />
       <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\FrontEnd\CSS" />
     </key>
@@ -161,6 +160,9 @@
       <workItem from="1669640608965" duration="279000" />
       <workItem from="1669642114963" duration="2415000" />
       <workItem from="1669895778132" duration="1265000" />
+      <workItem from="1669908020751" duration="154000" />
+      <workItem from="1670481755880" duration="136000" />
+      <workItem from="1670482057734" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="Final version, no more change allowed.">
       <created>1665218153960</created>
@@ -309,7 +311,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669895833141</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Update.">
+      <created>1669908077027</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1669908077027</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update.">
+      <created>1669908150114</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1669908150114</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fixed goal fetcher.">
+      <created>1670481800699</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670481800699</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fixed goal fetcher.">
+      <created>1670482087729</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670482087729</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +367,7 @@
     <MESSAGE value="Location changed." />
     <MESSAGE value="Comment added to add own API, before running." />
     <MESSAGE value="Update." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update." />
+    <MESSAGE value="Fixed goal fetcher." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed goal fetcher." />
   </component>
 </project>
