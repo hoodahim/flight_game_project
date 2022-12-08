@@ -12,8 +12,6 @@ def goal_fetcher():
 #    print(result)
     if cursor.rowcount > 0:
         for row in result:
-            target_min = str(row[5])
-            target_max = str(row[6])
             goal = {
                 "goalID": row[0],
                 "name": row[1],
@@ -21,8 +19,8 @@ def goal_fetcher():
                 "icon": row[3],
                 "reached": False,
                 "target": row[4],
-                "target_minvalue": target_min,
-                "target_maxvalue": target_max,
+                "target_minvalue": str(row[5]),
+                "target_maxvalue": str(row[6]),
                 "target_text": row[7],
             }
 #             print(goal)
