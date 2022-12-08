@@ -5,10 +5,11 @@ import json
 
 
 def goal_fetcher():
+    list_of_goals = []
     cursor = connection.cursor()
     cursor.execute("SELECT id, name, description, icon, target, target_minvalue, target_maxvalue, target_text FROM goal ")
     result = cursor.fetchall()
-    print(result)
+#    print(result)
     if cursor.rowcount > 0:
         for row in result:
             target_min = str(row[5])
@@ -24,9 +25,10 @@ def goal_fetcher():
                 "target_maxvalue": target_max,
                 "target_text": row[7],
             }
+#             print(goal)
             json.dumps(goal, indent=4)
-            print(goal)
-            return goal
+            list_of_goals.append(goal)
+    return list_of_goals
 
 
 connection = mysql.connector.connect(
@@ -39,3 +41,4 @@ connection = mysql.connector.connect(
          )
 
 array_of_goals = goal_fetcher()
+print(array_of_goals)
