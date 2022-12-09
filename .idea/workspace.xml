@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5570a376-b013-4b9c-9be1-f1adfda0bca8" name="Changes" comment="Upload." />
+    <list default="true" id="5570a376-b013-4b9c-9be1-f1adfda0bca8" name="Changes" comment="Database added." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,18 +34,18 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gemma/PycharmProjects/flight_game_project/Final_version/Gemma_part&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gemma/PycharmProjects/flight_game_project/Final_version/Gemma_part/Actual_game&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\Gemma_part\Actual_game" />
       <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\Gemma_part" />
       <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\FrontEnd\testdata" />
       <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\BackEnd" />
       <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\FrontEnd" />
-      <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\FrontEnd\JavaScript" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Gemma\PycharmProjects\flight_game_project\Final_version\Gemma_part\Actual_game" />
@@ -166,6 +166,7 @@
       <workItem from="1670482057734" duration="40000" />
       <workItem from="1670482150470" duration="31000" />
       <workItem from="1670571468380" duration="439000" />
+      <workItem from="1670573714137" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="Final version, no more change allowed.">
       <created>1665218153960</created>
@@ -363,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670571868871</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Database added.">
+      <created>1670573754763</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670573754763</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,6 +401,7 @@
     <MESSAGE value="Update." />
     <MESSAGE value="Fixed goal fetcher." />
     <MESSAGE value="Upload." />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload." />
+    <MESSAGE value="Database added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Database added." />
   </component>
 </project>
