@@ -163,6 +163,7 @@
       <workItem from="1669908020751" duration="154000" />
       <workItem from="1670481755880" duration="136000" />
       <workItem from="1670482057734" duration="40000" />
+      <workItem from="1670482150470" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="Final version, no more change allowed.">
       <created>1665218153960</created>
@@ -339,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670482087729</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Fixed goal fetcher.">
+      <created>1670482176820</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1670482176820</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

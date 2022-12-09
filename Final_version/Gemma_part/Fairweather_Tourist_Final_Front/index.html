@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"/>
+    <link href="CSS/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+          rel="stylesheet">
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" defer></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js" defer></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js" defer></script>
+    <script src="JavaScript/main.js" defer></script>
+    <title>Fairweather Tourist - Game</title>
+</head>
+<body>
+<div class="container">
+    <header class="page-header flex-wrap">
+        <h1 class="page-title">Fairweather Tourist</h1>
+        <nav>
+            <ul class="flex-wrap">
+                <li><a href="index.html">Game</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex-wrap">
+        <div id="map"></div>
+        <div class="boxes">
+            <section class="box">
+                <table>
+                    <tr>
+                        <td id="replace-name">Player's Name</td>
+                        <td></td>
+                        <td id="current-score">0 point</td>
+                    </tr>
+                    <tr>
+                        <td id="current-airport">Airport name</td>
+                        <td id="current-city">City</td>
+                        <td id="current-country">Country</td>
+                    </tr>
+                    <tr>
+                        <td id="current-temperature">Temperature: °C</td>
+                        <td id="current-weather-condition">Weather State</td>
+                        <td id="current-wind-speed">Wind: m/s</td>
+                    </tr>
+                    <tr>
+                        <td id="current-co2-consumed">CO2 generated: 0kg</td>
+                        <td id="current-co2-available">Available CO2: 2000kg</td>
+                        <td id="current-odometer">Travelled distance: 0km</td>
+                    </tr>
+                </table>
+            </section>
+            <section class="box output">
+                <p class="outcome-box"></p>
+                <p class="status-box"></p>
+                <p class="weather-box"></p>
+                <p class="text-box"></p>
+                <p class="order-box"></p>
+            </section>
+            <section class="box">
+                <p><b>Weather goals</b></p>
+                <ul class="flex-wrap">
+                    <li class="goal-rainy">
+                        <figure>
+                            <img src="https://openweathermap.org/img/wn/09n@2x.png" alt="Goal weather icon">
+                            <figcaption>Rainy</figcaption>
+                        </figure>
+                    </li>
+                    <li class="goal-windy">
+                        <figure>
+                            <img src="https://openweathermap.org/img/wn/50n@2x.png" alt="Goal weather icon">
+                            <figcaption>Windy (+10m/s)</figcaption>
+                        </figure>
+                    </li>
+                    <li class="goal-cloudy">
+                        <figure>
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="Goal weather icon">
+                            <figcaption>Cloudy</figcaption>
+                        </figure>
+                    </li>
+                    <li class="goal-sunny">
+                        <figure>
+                            <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="Goal weather icon">
+                            <figcaption>Sunny (+15°C)</figcaption>
+                        </figure>
+                    </li>
+                    <li class="goal-snows">
+                        <figure>
+                            <img src="https://openweathermap.org/img/wn/13d@2x.png" alt="Goal weather icon">
+                            <figcaption>Snows</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+            <section class="box">
+                <p><b>Secret locations</b></p>
+                <ul class="flex-wrap">
+                    <li class="riddle1"><b>“Fancying a Pint?”:</b> learning that “bangers” do not necessarily mean
+                        something dirty
+                    </li>
+                    <li class="riddle2"><b>“Waves of South”:</b> surfing lessons for the fainthearted</li>
+                    <li class="riddle3"><b>“Charles’ Eastern Comfort”:</b> heavy food today, cholesterol tomorrow</li>
+                    <li class="riddle4"><b>“We’re Going to Ibiza!”:</b> does it need an explanation?</li>
+                    <li class="riddle5"><b>“Upside Down”:</b> where the sand is dark as the night and the night sky is
+                        blue
+                    </li>
+                    <li class="riddle6"><b>Easter Egg:</b><i> “I was once called an old dame. In daylight, I’m proudly
+                        wearing my scars of
+                        history, but when the night falls I put on my jewels to mesmerise you with my thousand
+                        sparks.”</i></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <p>We hope you enjoyed playing our game :)</p>
+    </footer>
+</div>
+<div id="player-modal">
+    <form id="player-form">
+        <input id="player-input" type="text" placeholder="Enter a username" required>
+        <input class="submitBtn" type="submit" value="Start Game">
+    </form>
+</div>
+</body>
+</html>
