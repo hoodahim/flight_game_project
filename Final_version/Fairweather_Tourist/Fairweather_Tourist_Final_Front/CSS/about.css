@@ -1,0 +1,267 @@
+/* variables */
+:root {
+    --black: rgb(23, 23, 23);
+    --white: rgb(255, 250, 229);
+    --darkest-blue: rgb(25, 46, 64);
+    --darker-blue: rgb(39, 79, 114);
+    --blue: rgb(77, 115, 139);
+    --text-blue: rgb(59, 88, 107);
+    --lighter-blue: rgb(146, 178, 190);
+    --lightest-blue: rgb(175, 216, 208);
+}
+
+/* utilities */
+nav ul li a {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    text-align: center;
+    transition: all 300ms;
+    color: var(--white);
+}
+
+nav ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: var(--white);
+    display: block;
+    margin: auto;
+    transition: 1.5s;
+}
+
+nav ul li:hover::after{
+    width: 100%;
+    background: var(--white);
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hide {
+    display: none;
+}
+
+/* app specific */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgba(218, 229, 227, 0.22);
+    scroll-behavior: smooth;
+    color: var(--text-blue);
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.page-header {
+    background-color: var(--lighter-blue);
+    color: var(--white);
+    text-shadow: var(--darker-blue) 3px 3px 10px;
+    display: inline-block;
+    width: 100%;
+    box-shadow: rgba(77, 115, 139, 0.3) 3px 3px 10px;
+}
+
+.page-footer {
+    background-color:var(--lighter-blue);
+    color: var(--white);
+    text-shadow: var(--darker-blue) 3px 3px 10px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.page-title {
+    margin: 0;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    padding: 1rem 2rem;
+}
+
+h1 {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    padding-right: 2rem;
+}
+
+nav ul {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 1.6rem 1rem 1rem 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem 1.4rem;
+}
+
+article{
+    margin-bottom: 2rem;
+}
+.about {
+    padding-left: 4.4rem;
+    margin-bottom: 0;
+}
+
+.pic {
+    border: 1px solid var(--lighter-blue);
+    border-radius: 6px;
+    width: 40%;
+    float: left;
+    margin: 2rem 2.4rem 2rem 2rem;
+}
+
+.quotation {
+    font-size: 1.2rem;
+    margin: 3.5rem 3rem 1rem 0;
+    line-height: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.text {
+    font-size: 1rem;
+    margin: 2rem 4.4rem 1rem 4.4rem;
+    text-align: justify;
+    line-height: 1.6rem;
+}
+
+/* for Apple tablet devices (Air & Mini) with max width 821px: */
+
+@media screen and (min-width:767px) and (max-width: 821px) {
+
+    .page-title {
+        display: block;
+        text-align: center;
+    }
+
+    nav {
+        display: block;
+        float: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        padding: 0.5rem 2rem 1rem 2rem;
+        margin: 0;
+    }
+
+    .about {
+        padding-left: 3.4rem;
+        font-size: large;
+    }
+
+    .pic {
+        display: block;
+        width: 95%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .quotation {
+        margin: 1rem 3.4rem 1rem 3.4rem;
+    }
+
+    .text {
+        margin: 2rem 3.4rem 1rem 3.4rem;
+    }
+}
+
+/* for Apple phone devices (XR, SE, 12 Pro) with screen width 374-415px: */
+
+@media screen and (min-width: 374px) and (max-width: 415px) {
+
+    .page-title {
+        display: block;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        display: block;
+        float: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li, .page-footer{
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    article {
+        margin-bottom: 0;
+    }
+
+    .about {
+        font-size: medium;
+        padding: 0;
+        margin-top: 0;
+        display: block;
+        text-align: center;
+    }
+
+    figure {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .pic {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .quotation {
+        margin: 0.5rem 0 1rem 0;
+        font-size: medium;
+    }
+
+    .text {
+        margin: 1rem 0.5rem 1rem 0.5rem;
+        font-size: small;
+    }
+
+    .page-footer {
+        margin-top: 0;
+    }
+}
+
