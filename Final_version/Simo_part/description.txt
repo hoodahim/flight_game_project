@@ -1,0 +1,1 @@
+changed the scaling of components from being defined units like REM to being % based to fix scaling issues on different screen sizes
